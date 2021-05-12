@@ -1,7 +1,7 @@
 const BLOG = {
   title: '银河漫游指南',
   author: 'yhkang',
-  email: '',
+  email: 'yahuakang@gmail.com',
   link: 'https://yhkang.vercel.app',
   description: 'Life, the universe, and everything.',
   lang: 'zh-CN',
