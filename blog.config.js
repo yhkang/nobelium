@@ -4,18 +4,19 @@ const BLOG = {
   email: 'yhkang.net@gmail.com',
   link: 'https://yhkang.vercel.app',
   description: 'Life, the universe, and everything.',
-  lang: 'zh-CN',
+  lang: 'zh-CN', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
   appearance: 'auto', // ['light', 'dark', 'auto'],
   font: 'sans-serif', // ['sans-serif', 'serif']
   lightBackground: '#ffffff', // use hex value, don't forget '#' e.g #fffefc
   darkBackground: '#18181B', // use hex value, don't forget '#'
   path: '', // leave this empty unless you want to deploy Nobelium in a folder
-  since: 2021, // if leave this empty, current year will be used.
+  since: 2021, // If leave this empty, current year will be used.
   postsPerPage: 7,
   sortByDate: false,
-  showAbout: true, // WIP
-  showArchive: true, // WIP
+  showAbout: true,
+  showArchive: true,
   autoCollapsedNavBar: false, // the automatically collapsed navigation bar
+  ogImageGenerateURL: 'https://og-image-craigary.vercel.app', // The link to generate OG image, don't end with a slash
   socialLink: 'https://t.me/yhkang',
   seo: {
     keywords: ['Blog', 'Website', 'YHKANG'],
